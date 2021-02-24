@@ -1,0 +1,63 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/Users/tinzors/Documents/actionnote-landing/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/tinzors/Documents/actionnote-landing/src/pages"
+      }
+    ],
+    "/Users/tinzors/Documents/actionnote-landing/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/tinzors/Documents/actionnote-landing/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "react-static-plugin-tailwindcss",
+    "/Users/tinzors/Documents/actionnote-landing"
+  ],
+  "paths": {
+    "ROOT": "/Users/tinzors/Documents/actionnote-landing",
+    "SRC": "/Users/tinzors/Documents/actionnote-landing/src",
+    "DIST": "/Users/tinzors/Documents/actionnote-landing/dist",
+    "ASSETS": "/Users/tinzors/Documents/actionnote-landing/dist",
+    "PLUGINS": "/Users/tinzors/Documents/actionnote-landing/plugins",
+    "TEMP": "/Users/tinzors/Documents/actionnote-landing/tmp",
+    "ARTIFACTS": "/Users/tinzors/Documents/actionnote-landing/artifacts",
+    "PUBLIC": "/Users/tinzors/Documents/actionnote-landing/public",
+    "NODE_MODULES": "/Users/tinzors/Documents/actionnote-landing/node_modules",
+    "EXCLUDE_MODULES": "/Users/tinzors/Documents/actionnote-landing/node_modules",
+    "PACKAGE": "/Users/tinzors/Documents/actionnote-landing/package.json",
+    "HTML_TEMPLATE": "/Users/tinzors/Documents/actionnote-landing/dist/index.html",
+    "STATIC_DATA": "/Users/tinzors/Documents/actionnote-landing/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
