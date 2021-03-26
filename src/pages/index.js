@@ -1,165 +1,114 @@
 import React from "react";
 
-import EmailForm from "../components/EmailForm";
-import Features from "../components/Features";
-import Customers from "../components/Customers";
-import logo from "../assets/images/logo.svg";
-import ANGif from "../assets/images/banner-animation.gif";
+// external imports
+import logo from "../assets/images/logo.png";
+import video from "../assets/videos/banner-video.mp4";
+import Schedule from "../components/Schedule";
+import Team from "../components/Team";
 
 export default () => {
   return (
-    <div className="relative bg-white overflow-hidden">
-      <div
-        className="hidden lg:block lg:absolute lg:inset-0"
-        aria-hidden="true"
-      >
-        <svg
-          className="absolute top-0 left-1/2 transform translate-x-64 -translate-y-8"
-          width="640"
-          height="784"
-          fill="none"
-          viewBox="0 0 640 784"
-        >
-          <defs>
-            <pattern
-              id="9ebea6f4-a1f5-4d96-8c4e-4c2abf658047"
-              x="118"
-              y="0"
-              width="20"
-              height="20"
-              patternUnits="userSpaceOnUse"
+    <div>
+      <div className="relative bg-white overflow-hidden">
+        <div className="max-w-7xl mx-auto">
+          <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+            <svg
+              className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
+              fill="currentColor"
+              viewBox="0 0 100 100"
+              preserveAspectRatio="none"
+              aria-hidden="true"
             >
-              <rect
-                x="0"
-                y="0"
-                width="4"
-                height="4"
-                className="text-gray-200"
-                fill="currentColor"
-              />
-            </pattern>
-          </defs>
-          <rect
-            y="72"
-            width="640"
-            height="640"
-            className="text-gray-50"
-            fill="currentColor"
-          />
-          <rect
-            x="118"
-            width="404"
-            height="784"
-            fill="url(#9ebea6f4-a1f5-4d96-8c4e-4c2abf658047)"
-          />
-        </svg>
-      </div>
-      <div className="relative pt-6 pb-16 sm:pb-24 lg:pb-32">
-        <nav
-          className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
-          aria-label="Global"
-        >
-          <div className="flex items-center flex-1">
-            <div className="flex items-center justify-between w-full md:w-auto">
-              <a href="#">
-                <span className="sr-only">Workflow</span>
-                <img className="h-8 w-auto sm:h-10" src={logo} alt="" />
-              </a>
-              <div className="-mr-2 flex items-center md:hidden"></div>
-            </div>
-          </div>
-          <div className="hidden md:block text-right"></div>
-        </nav>
+              <polygon points="50,0 100,0 50,100 0,100" />
+            </svg>
 
-        {/* <!--
-      Mobile menu, show/hide based on menu open state.
-
-      Entering: "duration-150 ease-out"
-        From: "opacity-0 scale-95"
-        To: "opacity-100 scale-100"
-      Leaving: "duration-100 ease-in"
-        From: "opacity-100 scale-100"
-        To: "opacity-0 scale-95"
-    --> */}
-
-        <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32 pb-10">
-          <div className="lg:grid lg:grid-cols-12 lg:gap-8">
-            <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
-              <h1>
-                <span className="block text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">
-                  actionnote beta
-                </span>
-                <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
-                  <span className="block text-gray-900">Elevate Your BJJ</span>
-                  <span className="block text-indigo-600">
-                    Student Engagement
-                  </span>
-                </span>
-              </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                ActionNote is a user-friendly online platform to create,
-                organize, and share Jiu-Jitsu knowledge between coaches and
-                students. Communicate with your team around the most important
-                aspect of BJJ - <span className="font-bold">technique!</span>
-              </p>
-              <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
-                <p className="text-base font-medium text-gray-900">
-                  Sign up for ActionNote Beta
-                </p>
-                <EmailForm />
-              </div>
-            </div>
-            <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
-              <svg
-                className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-8 scale-75 origin-top sm:scale-100 hidden lg:hidden"
-                width="640"
-                height="784"
-                fill="none"
-                viewBox="0 0 640 784"
-                aria-hidden="true"
+            <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
+              <nav
+                className="relative flex items-center justify-between sm:h-10 lg:justify-start"
+                aria-label="Global"
               >
-                <defs>
-                  <pattern
-                    id="4f4f415c-a0e9-44c2-9601-6ded5a34a13e"
-                    x="118"
-                    y="0"
-                    width="20"
-                    height="20"
-                    patternUnits="userSpaceOnUse"
-                  >
-                    <rect
-                      x="0"
-                      y="0"
-                      width="4"
-                      height="4"
-                      className="text-gray-200"
-                      fill="currentColor"
-                    />
-                  </pattern>
-                </defs>
-                <rect
-                  y="72"
-                  width="640"
-                  height="640"
-                  className="text-gray-50"
-                  fill="currentColor"
-                />
-                <rect
-                  x="118"
-                  width="404"
-                  height="784"
-                  fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)"
-                />
-              </svg>
-              <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
-                <img className="w-full" src={ANGif} alt="" />
-              </div>
+                <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+                  <div className="flex items-center justify-between w-full md:w-auto">
+                    <div className="flex flex-row justify-center items-center">
+                      <img src={logo} className="h-10 w-auto" alt="" />
+                      <span className="ml-2 text-md font-bold uppercase text-blue-900">
+                        Renzo Gracie Seattle
+                      </span>
+                    </div>
+                    <div className="-mr-2 flex items-center md:hidden">
+                      <button
+                        type="button"
+                        className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                        aria-expanded="false"
+                      >
+                        <span className="sr-only">Open main menu</span>
+                        {/* <!-- Heroicon name: outline/menu --> */}
+                        <svg
+                          className="h-6 w-6"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          aria-hidden="true"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8"></div>
+              </nav>
             </div>
+
+            <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-10">
+              <div className="sm:text-center lg:text-left">
+                <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl">
+                  <span className="block xl:inline">Changing lives</span>
+                  <span className="block text-blue-800">
+                    through self-defense instruction
+                  </span>
+                </h1>
+                <p className="mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                  Renzo Gracie Seattle offers world-class Brazilian Jiu-Jitsu
+                  and self-defense training to students of all ages in the Puget
+                  Sound area
+                </p>
+                <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                  <div className="rounded-md shadow">
+                    <div className="font-bold mb-2 text-blue-800">
+                      Ready for a change? Your first class is free
+                    </div>
+                    <a
+                      href="https://jnnrhgtwxlr.typeform.com/to/igbvrkeW"
+                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-700 hover:bg-blue-800 md:py-4 md:text-lg md:px-10"
+                    >
+                      Try Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </main>
           </div>
-        </main>
-        <Customers />
-        <Features />
+        </div>
+        <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+          <video
+            className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+            autoPlay
+            loop
+            muted
+          >
+            <source src={video} type="video/mp4" />
+          </video>
+        </div>
       </div>
+      <Team />
+      <Schedule />
     </div>
   );
 };

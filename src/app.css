@@ -24,7 +24,6 @@ code {
 
 #root {
   height: 100%;
-  overflow: scroll;
 }
 
 .btn-primary {
