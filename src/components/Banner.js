@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="pr-16 sm:text-center sm:px-16">
           <p className="font-medium text-white">
             <span className="md:hidden">
-              We are open under WA State Phase-II Guidelines. Accepting new
+              We are open under WA State Phase-III Guidelines. Accepting new
               students.
             </span>
             <span className="hidden md:inline">
