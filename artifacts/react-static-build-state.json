@@ -16,30 +16,30 @@
   "entry": "index.js",
   "plugins": [
     [
-      "/Users/tinzors/Documents/actionnote-landing/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      "/Users/td/Documents/renzo-gracie-seattle/landing/node_modules/react-static-plugin-source-filesystem/node.api.js",
       {
-        "location": "/Users/tinzors/Documents/actionnote-landing/src/pages"
+        "location": "/Users/td/Documents/renzo-gracie-seattle/landing/src/pages"
       }
     ],
-    "/Users/tinzors/Documents/actionnote-landing/node_modules/react-static-plugin-reach-router/browser.api.js",
-    "/Users/tinzors/Documents/actionnote-landing/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/td/Documents/renzo-gracie-seattle/landing/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/td/Documents/renzo-gracie-seattle/landing/node_modules/react-static-plugin-sitemap/dist/node.api.js",
     "react-static-plugin-tailwindcss",
-    "/Users/tinzors/Documents/actionnote-landing"
+    "/Users/td/Documents/renzo-gracie-seattle/landing"
   ],
   "paths": {
-    "ROOT": "/Users/tinzors/Documents/actionnote-landing",
-    "SRC": "/Users/tinzors/Documents/actionnote-landing/src",
-    "DIST": "/Users/tinzors/Documents/actionnote-landing/dist",
-    "ASSETS": "/Users/tinzors/Documents/actionnote-landing/dist",
-    "PLUGINS": "/Users/tinzors/Documents/actionnote-landing/plugins",
-    "TEMP": "/Users/tinzors/Documents/actionnote-landing/tmp",
-    "ARTIFACTS": "/Users/tinzors/Documents/actionnote-landing/artifacts",
-    "PUBLIC": "/Users/tinzors/Documents/actionnote-landing/public",
-    "NODE_MODULES": "/Users/tinzors/Documents/actionnote-landing/node_modules",
-    "EXCLUDE_MODULES": "/Users/tinzors/Documents/actionnote-landing/node_modules",
-    "PACKAGE": "/Users/tinzors/Documents/actionnote-landing/package.json",
-    "HTML_TEMPLATE": "/Users/tinzors/Documents/actionnote-landing/dist/index.html",
-    "STATIC_DATA": "/Users/tinzors/Documents/actionnote-landing/dist/staticData"
+    "ROOT": "/Users/td/Documents/renzo-gracie-seattle/landing",
+    "SRC": "/Users/td/Documents/renzo-gracie-seattle/landing/src",
+    "DIST": "/Users/td/Documents/renzo-gracie-seattle/landing/dist",
+    "ASSETS": "/Users/td/Documents/renzo-gracie-seattle/landing/dist",
+    "PLUGINS": "/Users/td/Documents/renzo-gracie-seattle/landing/plugins",
+    "TEMP": "/Users/td/Documents/renzo-gracie-seattle/landing/tmp",
+    "ARTIFACTS": "/Users/td/Documents/renzo-gracie-seattle/landing/artifacts",
+    "PUBLIC": "/Users/td/Documents/renzo-gracie-seattle/landing/public",
+    "NODE_MODULES": "/Users/td/Documents/renzo-gracie-seattle/landing/node_modules",
+    "EXCLUDE_MODULES": "/Users/td/Documents/renzo-gracie-seattle/landing/node_modules",
+    "PACKAGE": "/Users/td/Documents/renzo-gracie-seattle/landing/package.json",
+    "HTML_TEMPLATE": "/Users/td/Documents/renzo-gracie-seattle/landing/dist/index.html",
+    "STATIC_DATA": "/Users/td/Documents/renzo-gracie-seattle/landing/dist/staticData"
   },
   "siteRoot": "/",
   "basePath": "",
