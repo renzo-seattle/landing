@@ -1,5 +1,5 @@
 import React from "react";
-import MessengerSendToMessenger from "react-messenger-send-to-messenger";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 // external imports
 import logo from "../assets/images/logo.png";
@@ -10,7 +10,7 @@ import Team from "../components/Team";
 export default () => {
   return (
     <div>
-      <MessengerSendToMessenger pageId="400520927033804" appId="<APP_ID>" />
+      <MessengerCustomerChat pageId="400520927033804" />
       <div className="relative bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">

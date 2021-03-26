@@ -7432,6 +7432,13 @@ react-mailchimp-subscribe@^2.1.0:
     prop-types "^15.5.10"
     to-querystring "^1.0.4"
 
+react-messenger-customer-chat@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/react-messenger-customer-chat/-/react-messenger-customer-chat-0.8.0.tgz#c0696af9f71d5804a1b1149ae67d672802dee15d"
+  integrity sha512-7HItF+2nElXCBLi1q5eccgE9X4P86BmjmzF5nBcok+hJNWVjdKJTdWxl9VZTQnjkp3GHB7WwTwN2l3d/RKmFuQ==
+  dependencies:
+    prop-types "^15.6.0"
+
 react-messenger-send-to-messenger@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/react-messenger-send-to-messenger/-/react-messenger-send-to-messenger-0.2.0.tgz#50fcccf2a0296dfd4a7fc241916c35267f97b1a2"
