@@ -69,7 +69,8 @@ const Team = () => {
                       Wesleyan University for multiple time New England
                       Wrestling Association Coach of the Year and the winningest
                       coach in school history, Drew Black. In 2019, Josh was
-                      promoted to Black Belt by Coach Fred Borden
+                      promoted to Black Belt by Renzo Gracie Black Belt, Lincoln
+                      Pereira
                     </p>
                   </div>
                 </div>
