@@ -106,6 +106,7 @@ export default () => {
             autoPlay
             loop
             muted
+            playsinline
           >
             <source src={video} type="video/mp4" />
           </video>
