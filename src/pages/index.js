@@ -1,7 +1,5 @@
 import React from "react";
 import MessengerCustomerChat from "react-messenger-customer-chat";
-import { DefaultPlayer as Video } from "react-html5video";
-import "react-html5video/dist/styles.css";
 
 // external imports
 import logo from "../assets/images/logo.png";
@@ -103,9 +101,15 @@ export default () => {
           </div>
         </div>
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-          <Video autoPlay loop muted controls={["PlayPause", "Fullscreen"]}>
-            <source src={video} type="video/webm" />
-          </Video>
+          <video
+            className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+            autoPlay
+            loop
+            muted
+            playsinline
+          >
+            <source src={video} type="video/mp4" />
+          </video>
         </div>
       </div>
       <Team />
