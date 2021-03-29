@@ -10,13 +10,12 @@ const tagManagerArgs = {
   gtmId: "G-9WT2RRW47L",
 };
 
-TagManager.initialize(tagManagerArgs);
-
 // Export your top level component as JSX (for static rendering)
 export default App;
 
 // Render your app
 if (typeof document !== "undefined") {
+  TagManager.initialize(tagManagerArgs);
   const target = document.getElementById("root");
 
   const renderMethod = target.hasChildNodes()
