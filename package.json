@@ -23,6 +23,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-gtm-module": "^2.0.11",
+    "react-html5video": "^2.5.1",
     "react-mailchimp-subscribe": "^2.1.0",
     "react-messenger-customer-chat": "^0.8.0",
     "react-messenger-send-to-messenger": "^0.2.0",
