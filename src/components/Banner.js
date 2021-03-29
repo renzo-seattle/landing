@@ -11,7 +11,7 @@ const Banner = () => {
               students.
             </span>
             <span className="hidden md:inline">
-              We are open following WA State's Phase-II Guidelines. Accepting
+              We are open following WA State's Phase-III Guidelines. Accepting
               new students.
             </span>
           </p>
