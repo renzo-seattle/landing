@@ -51,8 +51,8 @@ const Footer = () => {
         <div className="flex flex-row">
           <div>📍</div>
           <div className="font-blue-900">
-            4441 26th Ave W <br />
-            Seattle, WA 98199
+            101 Nickerson Street, Suite 150 <br />
+            Seattle, WA 98109
           </div>
         </div>
       </div>
