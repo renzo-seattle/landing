@@ -1,13 +1,40 @@
 import React from "react";
 
 const SCHEDULE = [
-  { day: "M", type: "🥋 Gi", times: "4:45, 5:30, 6:15, 7:00" },
-  { day: "TU", type: "🤼‍♂️ No Gi", times: "4:45, 5:30, 6:15, 7:00" },
-  { day: "W", type: "🥋 Gi", times: "4:45, 5:30, 6:15, 7:00" },
-  { day: "TH", type: "🤼‍♂️ No Gi", times: "4:45, 5:30, 6:15, 7:00" },
-  { day: "FR", type: "🤼‍♂️ No Gi", times: "4:45, 5:30, 6:15, 7:00" },
-  { day: "SA", type: "", times: "CLOSED" },
-  { day: "SU", type: "", times: "CLOSED" },
+  {
+    day: "M",
+    blocks: [
+      { type: "🥋 Gi", time: "5:30PM - 7:00PM" },
+      { type: "🤼‍♂️ No Gi", time: "7:00PM - 8:00PM" },
+    ],
+  },
+  {
+    day: "TU",
+    blocks: [
+      { type: "🤼‍♂️ No Gi", time: "5:30PM - 7:00PM" },
+      { type: "🥋 Gi", time: "7:00PM - 8:00PM" },
+    ],
+  },
+  {
+    day: "W",
+    blocks: [
+      { type: "🥋 Gi", time: "5:30PM - 7:00PM" },
+      { type: "🤼‍♂️ No Gi", time: "7:00PM - 8:00PM" },
+    ],
+  },
+  {
+    day: "TH",
+    blocks: [
+      { type: "🤼‍♂️ No Gi", time: "5:30PM - 7:00PM" },
+      { type: "🥋 Gi", time: "7:00PM - 8:00PM" },
+    ],
+  },
+  {
+    day: "FR",
+    blocks: [{ type: "🤼‍♂️ No Gi", time: "5:30PM - 7:00PM" }],
+  },
+  { day: "SA", blocks: [{ type: "", time: "CLOSED" }] },
+  { day: "SU", blocks: [{ type: "", time: "CLOSED" }] },
 ];
 
 const Schedule = () => {
@@ -32,18 +59,21 @@ const Schedule = () => {
                         {item.day}
                       </span>
                     </div>
-                    <div class="min-w-0 flex-1 pt-1.5 flex justify-between space-x-4">
-                      <div>
-                        <p class="text-sm text-gray-500">
-                          Times
-                          <div class="font-medium text-gray-900">
-                            {item.times}
+                    <div class="min-w-0 flex-1 pt-1.5 flex space-x-4">
+                      {item.blocks.map((block) => {
+                        return (
+                          <div>
+                            <div class="text-md whitespace-nowrap text-gray-500">
+                              {block.type}
+                            </div>
+                            <p class="text-sm text-gray-500">
+                              <div class="font-medium text-gray-900">
+                                {block.time}
+                              </div>
+                            </p>
                           </div>
-                        </p>
-                        <div class="text-md whitespace-nowrap text-gray-500">
-                          {item.type}
-                        </div>
-                      </div>
+                        );
+                      })}
                     </div>
                   </div>
                 </div>
