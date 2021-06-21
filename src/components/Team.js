@@ -40,7 +40,7 @@ const Team = () => {
                       his wrestling at the prestigious NYAC Wrestling Club. He
                       has trained alongside Gregor and Rolles Gracie, and UFC
                       stars Georges St. Pierre, Chris Weidman and Frankie Edgar.
-                      In 2011, Fred took gold at the NoGi Panams Masters. From
+                      In 2011, Fred took gold at the NoGi Pan Ams Masters. From
                       2008-2012 Fred served as a teacher's assistant at the
                       legendary Renzo Gracie Academy, and in 2018 he was awarded
                       his black belt by Rolles Gracie.
