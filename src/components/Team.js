@@ -36,11 +36,14 @@ const Team = () => {
                   <div className="text-md">
                     <p className="text-gray-500">
                       Born and raised in New York City, Fred began his Jiu-jitsu
-                      career training under the respected John Danaher. He has
-                      trained alongside UFC stars Georges St. Pierre, Chris
-                      Weidman and Frankie Edgar. From 2008-2012 Fred served as a
-                      teacher's assistant at the legendary Renzo Gracie Academy,
-                      and in 2018 he was awarded his black belt by Renzo Gracie.
+                      career training under the respected John Danaher and honed
+                      his wrestling at the prestigious NYAC Wrestling Club. He
+                      has trained alongside Gregor and Rolles Gracie, and UFC
+                      stars Georges St. Pierre, Chris Weidman and Frankie Edgar.
+                      In 2011, Fred took gold at the NoGi Panams Masters. From
+                      2008-2012 Fred served as a teacher's assistant at the
+                      legendary Renzo Gracie Academy, and in 2018 he was awarded
+                      his black belt by Rolles Gracie.
                     </p>
                   </div>
                 </div>
