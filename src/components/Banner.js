@@ -7,11 +7,11 @@ const Banner = () => {
         <div className="pr-16 sm:text-center sm:px-16">
           <p className="font-medium text-white">
             <span className="md:hidden">
-              We are fully open under WA State Guidelines. Accepting vaccinated,
+              We are fully open under WA State Guidelines. Currently only accepting vaccinated
               students.
             </span>
             <span className="hidden md:inline">
-              We are fully open under WA State Guidelines. Accepting vaccinated,
+              We are fully open under WA State Guidelines. Currently only accepting vaccinated
               students.
             </span>
           </p>
