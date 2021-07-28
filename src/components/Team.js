@@ -1,6 +1,6 @@
 import React from "react";
 
-import fred from "../assets/images/fred-2.jpg";
+import fred from "../assets/images/fred-3.jpg";
 import josh from "../assets/images/josh-2.jpg";
 
 const Team = () => {
