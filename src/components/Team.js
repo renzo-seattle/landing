@@ -1,7 +1,7 @@
 import React from "react";
 
 import fred from "../assets/images/fred-3.jpg";
-import josh from "../assets/images/josh-2.jpg";
+import josh from "../assets/images/josh-3.jpg";
 
 const Team = () => {
   return (
