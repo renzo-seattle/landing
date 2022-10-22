@@ -5,7 +5,6 @@ import { Link, Router } from "components/Router";
 import Dynamic from "containers/Dynamic";
 
 import "./app.css";
-import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 
 import logo from "./assets/images/logo-no-words.png";
@@ -27,7 +26,6 @@ function App() {
             </div>
           }
         >
-          <Banner />
           <Router>
             <Dynamic path="dynamic" />
             <Routes path="*" />
