@@ -3,7 +3,10 @@ import React from "react";
 const SCHEDULE = [
   {
     day: "M",
-    blocks: [{ type: "🥋 Gi", time: "5:30PM - 7:00PM" }],
+    blocks: [
+      { type: "🥋 Gi - Fundamentals", time: "5:30PM - 6:30PM" },
+      { type: "🥋 Gi - Advanced", time: "6:30PM - 8:00PM" },
+    ],
   },
   {
     day: "TU",
@@ -14,7 +17,10 @@ const SCHEDULE = [
   },
   {
     day: "W",
-    blocks: [{ type: "🥋 Gi", time: "5:30PM - 7:00PM" }],
+    blocks: [
+      { type: "🥋 Gi - Fundamentals", time: "5:30PM - 6:30PM" },
+      { type: "🥋 Gi - Advanced", time: "6:30PM - 8:00PM" },
+    ],
   },
   {
     day: "TH",
