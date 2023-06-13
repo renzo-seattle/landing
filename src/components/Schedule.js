@@ -5,7 +5,7 @@ const SCHEDULE = [
     day: "M",
     blocks: [
       { type: "🥋 Gi - Fundamentals", time: "5:30PM - 6:30PM" },
-      { type: "🥋 Gi - Advanced", time: "6:30PM - 8:00PM" },
+      { type: "🥋 Gi - All Levels", time: "6:30PM - 8:00PM" },
     ],
   },
   {
@@ -19,7 +19,7 @@ const SCHEDULE = [
     day: "W",
     blocks: [
       { type: "🥋 Gi - Fundamentals", time: "5:30PM - 6:30PM" },
-      { type: "🥋 Gi - Advanced", time: "6:30PM - 8:00PM" },
+      { type: "🥋 Gi - All Levels", time: "6:30PM - 8:00PM" },
     ],
   },
   {
